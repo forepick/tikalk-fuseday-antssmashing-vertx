@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+.vertx
+vendor
+target
+*/target/*
+*/.idea/*
+*/.DS_Store/*
+*/.vertx/*
