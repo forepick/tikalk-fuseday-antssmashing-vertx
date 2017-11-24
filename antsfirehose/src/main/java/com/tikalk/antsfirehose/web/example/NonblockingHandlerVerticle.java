@@ -1,12 +1,13 @@
-package com.tikalk.scoreboard.web.example;
+package com.tikalk.antsfirehose.web.example;
 
-import com.tikalk.scoreboard.Constants;
+import com.tikalk.antsfirehose.Constants;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
 
 public class NonblockingHandlerVerticle extends AbstractVerticle {
 
     @Override
+
     public void start(Future<Void> fut) throws Exception {
         vertx.eventBus().consumer(Constants.PROCESS_REQUEST_ADDRESS, message -> {
             try {

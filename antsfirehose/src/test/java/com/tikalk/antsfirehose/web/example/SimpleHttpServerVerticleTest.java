@@ -1,7 +1,6 @@
 package com.tikalk.antsfirehose.web.example;
 
-import com.tikalk.antfirehose.Constants;
-import com.tikalk.antfirehose.web.example.SimpleHttpServerVerticle;
+import com.tikalk.antsfirehose.Constants;
 import io.vertx.core.Vertx;
 import io.vertx.ext.unit.Async;
 import io.vertx.ext.unit.TestContext;

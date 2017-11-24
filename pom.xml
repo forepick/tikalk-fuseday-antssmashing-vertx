@@ -15,6 +15,7 @@
         <module>antsfirehose</module>
         <module>adminservice</module>
         <module>smashingservice</module>
+        <module>antspublisher</module>
     </modules>
 
 

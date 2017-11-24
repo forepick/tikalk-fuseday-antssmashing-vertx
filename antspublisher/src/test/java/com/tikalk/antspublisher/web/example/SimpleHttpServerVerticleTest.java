@@ -1,7 +1,6 @@
-package com.tikalk.scoreboard.web.example;
+package com.tikalk.antspublisher.web.example;
 
-import com.tikalk.scoreboard.Constants;
-import com.tikalk.scoreboard.web.example.SimpleHttpServerVerticle;
+import com.tikalk.antspublisher.Constants;
 import io.vertx.core.Vertx;
 import io.vertx.ext.unit.Async;
 import io.vertx.ext.unit.TestContext;

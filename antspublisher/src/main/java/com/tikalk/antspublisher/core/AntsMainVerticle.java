@@ -1,4 +1,4 @@
-package com.tikalk.antfirehose.core;
+package com.tikalk.antspublisher.core;
 
 import io.vertx.core.AbstractVerticle;
 

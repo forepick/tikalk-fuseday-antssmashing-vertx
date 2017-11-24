@@ -1,6 +1,6 @@
-package com.tikalk.antfirehose.web.example;
+package com.tikalk.antspublisher.web.example;
 
-import com.tikalk.antfirehose.Constants;
+import com.tikalk.antspublisher.Constants;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
 import io.vertx.core.eventbus.EventBus;
