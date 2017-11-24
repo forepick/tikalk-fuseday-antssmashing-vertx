@@ -13,6 +13,8 @@
     <modules>
         <module>scoreboard</module>
         <module>antsfirehose</module>
+        <module>adminservice</module>
+        <module>smashingservice</module>
     </modules>
 
 

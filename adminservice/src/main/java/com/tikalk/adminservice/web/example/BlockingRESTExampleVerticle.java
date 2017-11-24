@@ -1,6 +1,6 @@
-package com.tikalk.scoreboard.web;
+package com.tikalk.adminservice.web.example;
 
-import com.tikalk.scoreboard.Constants;
+import com.tikalk.adminservice.Constants;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Future;

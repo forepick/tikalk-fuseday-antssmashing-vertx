@@ -9,7 +9,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>scoreboard</artifactId>
+    <artifactId>adminservice</artifactId>
 
     <build>
         <plugins>
@@ -38,7 +38,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
                                         <Main-Class>io.vertx.core.Launcher</Main-Class>
-                                        <Main-Verticle>com.tikalk.scoreboard.core.ScoreboardMainVerticle</Main-Verticle>
+                                        <Main-Verticle>com.tikalk.adminservice.core.AdminMainVerticle</Main-Verticle>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>
@@ -51,7 +51,6 @@
             </plugin>
         </plugins>
     </build>
-
 
     <dependencies>
         <dependency>

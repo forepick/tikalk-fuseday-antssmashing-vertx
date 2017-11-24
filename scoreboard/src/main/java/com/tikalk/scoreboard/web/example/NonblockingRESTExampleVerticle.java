@@ -1,4 +1,4 @@
-package com.tikalk.scoreboard.web;
+package com.tikalk.scoreboard.web.example;
 
 import com.tikalk.scoreboard.Constants;
 import io.vertx.core.AbstractVerticle;

@@ -1,6 +1,7 @@
-package com.tikalk.scoreboard;
+package com.tikalk.adminservice.web.example;
 
-import com.tikalk.scoreboard.web.SimpleHttpServerVerticle;
+import com.tikalk.adminservice.Constants;
+import com.tikalk.adminservice.web.example.SimpleHttpServerVerticle;
 import io.vertx.core.Vertx;
 import io.vertx.ext.unit.Async;
 import io.vertx.ext.unit.TestContext;

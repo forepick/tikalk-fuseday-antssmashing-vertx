@@ -1,6 +1,6 @@
-package com.tikalk.antfirehose.web;
+package com.tikalk.smashingservice.web.example;
 
-import com.tikalk.antfirehose.Constants;
+import com.tikalk.smashingservice.Constants;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Future;

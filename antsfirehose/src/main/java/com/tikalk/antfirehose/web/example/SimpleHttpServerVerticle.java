@@ -1,6 +1,6 @@
-package com.tikalk.scoreboard.web;
+package com.tikalk.antfirehose.web.example;
 
-import com.tikalk.scoreboard.Constants;
+import com.tikalk.antfirehose.Constants;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
 

@@ -1,6 +1,6 @@
-package com.tikalk.scoreboard.web;
+package com.tikalk.smashingservice.web.example;
 
-import com.tikalk.scoreboard.Constants;
+import com.tikalk.smashingservice.Constants;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
 import io.vertx.core.eventbus.EventBus;
