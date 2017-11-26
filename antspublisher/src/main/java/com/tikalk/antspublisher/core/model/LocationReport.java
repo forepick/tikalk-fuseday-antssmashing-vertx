@@ -1,8 +1,5 @@
 package com.tikalk.antspublisher.core.model;
 
-import io.vertx.core.impl.StringEscapeUtils;
-import io.vertx.core.json.Json;
-
 public class LocationReport extends EventBusMessage{
     public String id = "";
     public String species = "";
@@ -14,11 +11,6 @@ public class LocationReport extends EventBusMessage{
     }
 
     public String asEventBusMessage(){
-        try {
-            return "\"" + StringEscapeUtils.escapeJava(toString()) + "\"";
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "";
-        }
+        return toString();
     }
 }

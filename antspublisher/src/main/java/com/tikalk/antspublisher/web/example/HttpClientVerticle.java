@@ -18,7 +18,7 @@ public class HttpClientVerticle extends AbstractVerticle {
         eb = vertx.eventBus();
         client = vertx.createHttpClient();
         eb.consumer("call.url", message -> {
-            System.out.printf("%s: got message! sleeping...\n", displayName());
+            System.out.printf("%s: got address! sleeping...\n", displayName());
             try {
                 Thread.sleep(400);
             } catch (InterruptedException e) {
