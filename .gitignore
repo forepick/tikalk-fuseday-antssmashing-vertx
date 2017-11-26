@@ -3,7 +3,9 @@
 .vertx
 vendor
 target
+**/*.iml
 */target/*
 */.idea/*
 */.DS_Store/*
-*/.vertx/*
+*/.vertex/*
+*.iml
